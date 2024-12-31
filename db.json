@@ -1,10 +1,12 @@
-[
-  {
-    "latitude": -20.136810,
-    "longitude": -44.896870
-  },
-  {
-    "latitude": -20.136674,
-    "longitude": -44.897289
-  }
-]
+{
+  "coordenadas": [
+    {
+      "latitude": -20.136810,
+      "longitude": -44.896870
+    },
+    {
+      "latitude": -20.136674,
+      "longitude": -44.897289
+    }
+  ]
+}
