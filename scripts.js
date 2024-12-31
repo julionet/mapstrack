@@ -20,7 +20,7 @@ function initMap() {
 // Função para consultar a API e traçar a rota
 async function updateCoordinates() {
     try {
-        const response = await fetch('URL_DA_API');
+        const response = await fetch('https://my-json-server.typicode.com/julionet/mapstrack/coordenadas');
         if (!response.ok) throw new Error("Erro ao buscar coordenadas");
 
         const coordinates = await response.json();
